@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
+.fontDisplay {
+    font-family: "Gloria Hallelujah", serif;
+    
+}
+
+.gustavoBlue {
+    color: #5B83FF;
+}
+
+.gustavoBluebg {
+    background-color: #5B83FF;
+}
+
+.gustavoRed {
+    color: #B01211;
+}
+
+.gustavoRedbg {
+    background-color: #B01211;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.navbar-toggler-icon {
+   background-image:  url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
+}
+
+.jumbotron {
+    background-image: url(img/jump.jpg);
+    background-size: 25em;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-color: #FFF;
+    height: 80vh;
+}
+
+.perfilTexto {
+    line-height: 1.6em;
+}
+
+.bgVerde {
+    background-color: #025440;
+}
+
+footer {
+    background-image: url(img/header.jpg);
+    background-size: cover;
+    background-position: 75%;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+}
+
+.creditos link  {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .jumbotron {
+        background-position: 3em top;
+    }
+    .jumbotron .container {
+        width: 154px;
+        height: 104px;
+        margin-left: 1em;
+
+    }
+    .jumbotron .container h1 {
+        word-wrap: break-word;
+        line-height: 73px;
+        font-size: 54px;
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    
+    .jumbotron {
+        background-size: 35em 
+    }
+    
+    .jumbotron .container h1 {
+        word-wrap: break-word;
+        line-height: .9em;
+        font-size: 10em;
+        text-align: left;
+    }
+}
