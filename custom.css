@@ -49,6 +49,17 @@ body {
     line-height: 1.6em;
 }
 
+.icons {
+    width: 6em;
+    margin: auto;
+    fill: #4c4c4c;
+    text-align: center;
+}
+
+.icons:hover {
+    fill: #5B83FF;
+}
+
 .bgVerde {
     background-color: #025440;
 }
@@ -82,6 +93,10 @@ footer {
         font-size: 54px;
         text-align: left;
     }
+    
+    .icons {
+        fill: 5B83FF;
+}
 }
 
 @media only screen and (min-width: 992px) {
