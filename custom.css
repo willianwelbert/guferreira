@@ -1,8 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Capriola');
+
+body {
+    background-color: #f7f7f7;
+}
 
 .fontDisplay {
-    font-family: "Gloria Hallelujah", serif;
-    
+    font-family: "Capriola", serif;  
 }
 
 .gustavoBlue {
@@ -30,12 +33,16 @@
 }
 
 .jumbotron {
-    background-image: url(img/jump.jpg);
+    background-image: url(img/jump.png);
     background-size: 25em;
     background-position: right top;
     background-repeat: no-repeat;
-    background-color: #FFF;
+    background-color: #f7f7f7;
     height: 80vh;
+}
+
+.perfil {
+    max-width: 16em;
 }
 
 .perfilTexto {
