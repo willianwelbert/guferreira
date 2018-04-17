@@ -4,6 +4,10 @@ body {
     background-color: #f7f7f7;
 }
 
+img {
+    max-height: 50vh;
+}
+
 .fontDisplay {
     font-family: "Capriola", serif;  
 }
