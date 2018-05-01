@@ -70,6 +70,10 @@ img {
     background-color: #025440;
 }
 
+#agenda img {
+    max-height: 80vh;
+}
+
 footer {
     background-image: url(img/header.jpg);
     background-size: cover;
@@ -86,6 +90,7 @@ footer {
     
     .jumbotron {
         background-position: 3em top;
+        max-height: 65vh;
     }
     .jumbotron .container {
         width: 154px;
@@ -102,7 +107,11 @@ footer {
     
     .icons {
         fill: 5B83FF;
-}
+    }
+
+    #perfil {
+        padding-top: .5em!important;
+    }
 }
 
 @media only screen and (min-width: 992px) {
